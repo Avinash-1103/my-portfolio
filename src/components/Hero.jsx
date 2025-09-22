@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profileImg from '../public/profile.png'; // adjust path as needed
 
 const skills = [
   "Python", "Java", "React.js", "SQL", "MongoDB",
@@ -63,7 +64,7 @@ export default function Hero() {
       >
         <div className="w-48 h-full md:w-64 md:h-full rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-200 dark:ring-gray-800">
           <img
-            src={`${import.meta.env.BASE_URL}profile.png`}
+            src={profileImg}
             alt="Avinash Nalawade"
             className="w-full h-full object-cover"
           />
