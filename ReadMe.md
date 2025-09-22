@@ -28,12 +28,12 @@ Check out the live version of the portfolio:
 
 My portfolio is a **single-page application** built with modern web technologies. It highlights:
 
-- My personal projects and achievements  
+- Personal projects and achievements  
 - Skills and technologies I am proficient in  
 - Contact form to reach out directly  
 - Responsive design for all devices  
 
-It is structured to provide a professional yet simple interface, ensuring ease of navigation and fast loading times.
+It is designed to be professional yet simple, with smooth navigation and fast loading times.
 
 ---
 
@@ -67,16 +67,17 @@ It is structured to provide a professional yet simple interface, ensuring ease o
 
 ---
 
+## 📂 Project Structure
 
-📂 Project Structure
+```text
 my-portfolio/
 ├── .github/                # GitHub workflows
 ├── node_modules/           # Project dependencies
 ├── public/                 # Static assets like images, favicon
 ├── src/
-│   ├── assets/             # Images, icons, and other media
+│   ├── assets/             # Images, icons, media
 │   ├── components/         # React components
-│   ├── pages/              # Different pages (Home, About, etc.)
+│   ├── pages/              # Pages (Home, About, etc.)
 │   ├── App.jsx             # Main React component
 │   └── main.jsx            # React entry point
 ├── .gitignore
@@ -115,6 +116,8 @@ The production-ready files will be generated in the dist/ folder.
 
 🤝 Contribution
 
+Contributions are welcome!
+
 Fork the repository
 
 Create a branch:
@@ -133,6 +136,8 @@ git push origin feature/YourFeature
 
 
 Open a pull request on GitHub
+
+Feel free to open issues for suggestions or improvements.
 
 📬 Contact
 Avinash Nalawade
