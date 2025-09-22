@@ -68,21 +68,22 @@ export default function Navbar({ dark, setDark }) {
           </a>
 
           <button
-            onClick={() => setDark((d) => !d)}
-            className="p-2 rounded-md ring-1 ring-gray-200 dark:ring-gray-800"
+            onClick={() => setDark(!dark)}
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:scale-105 transition"
+            title="Toggle Dark Mode"
           >
-            {dark ? 'Light' : 'Dark'}
+            {dark ? "☀️" : "🌙"}
           </button>
+
+
         </nav>
 
         {/* Mobile controls */}
         <div className="md:hidden flex items-center gap-3">
-          <button
-            onClick={() => setDark((d) => !d)}
-            className="p-2 rounded-md ring-1 ring-gray-200 dark:ring-gray-800"
-          >
-            {dark ? 'Light' : 'Dark'}
+          <button onClick={() => setDark(!dark)}>
+            {dark ? '☀️' : '🌙'}
           </button>
+
           <motion.button
             onClick={() => setOpen((o) => !o)}
             className="p-2 rounded-md ring-1 ring-gray-200 dark:ring-gray-800 flex flex-col justify-center items-center"

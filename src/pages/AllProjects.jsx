@@ -23,6 +23,62 @@ const projects = [
         tech: ["Java", "SQLite"],
         link: "https://github.com/Avinash-1103/Movie-Ticket-Booking-System-"
     },
+    {
+        id: 4,
+        title: "Flight Ticket Price Prediction",
+        desc: "A machine learning project that predicts flight ticket prices based on features like airline, date of journey, source, and destination.",
+        tech: ["Python", "Jupyter Notebook", "Machine Learning", "Data Analysis"],
+        link: "https://github.com/Avinash-1103/Flight-ticket-price-prediction"
+    },
+    {
+        id: 5,
+        title: "Power BI Dashboards",
+        desc: "A collection of interactive and insightful dashboards created using Power BI, focusing on sales data analysis.",
+        tech: ["Power BI", "Data Visualization", "Business Intelligence"],
+        link: "https://github.com/Avinash-1103/Power-BI-Dashboards"
+    },
+    {
+        id: 6,
+        title: "Hotel Billing System",
+        desc: "A console-based hotel billing system developed in C, designed to manage room bookings and generate bills.",
+        tech: ["C", "Console Application", "Billing System"],
+        link: "https://github.com/Avinash-1103/Hotel-Billing-System"
+    },
+    {
+        id: 7,
+        title: "Thyroid Cancer Recurrence Prediction",
+        desc: "A machine learning project aimed at predicting the recurrence of thyroid cancer using clinical and pathological data.",
+        tech: ["Python", "Jupyter Notebook", "Machine Learning", "Data Analysis"],
+        link: "https://github.com/Avinash-1103/Thyroid-Cancer-Recurrence-Prediction"
+    },
+    {
+        id: 8,
+        title: "Hotel Cancellation Prediction",
+        desc: "A machine learning project aimed at predicting hotel booking cancellations based on various features.",
+        tech: ["Python", "Jupyter Notebook", "Machine Learning", "Data Analysis"],
+        link: "https://github.com/Avinash-1103/Hotel-cancelation-prediction"
+    },
+    {
+        id: 9,
+        title: "Shopez",
+        desc: "A Django-based e-commerce API with modular structure, SQLite database, and customizable components.",
+        tech: ["Django", "Python", "SQLite", "API", "Web Development"],
+        link: "https://github.com/Avinash-1103/shopez"
+    },
+    {
+        id: 10,
+        title: "Insurance Service Website",
+        desc: "A professional, modern, and responsive insurance service website built with React, Vite, TailwindCSS, and Framer Motion.",
+        tech: ["React", "Vite", "TailwindCSS", "Framer Motion", "EmailJS"],
+        link: "https://github.com/Avinash-1103/NPVenture"
+    },
+    {
+        id: 1,
+        title: "My Portfolio",
+        desc: "A personal portfolio website showcasing skills, projects, and professional journey as a web developer.",
+        tech: ["HTML", "CSS", "JavaScript", "Vite", "TailwindCSS"],
+        link: "https://github.com/Avinash-1103/my-portfolio"
+    }
     // Later you can add more projects here
 ]
 

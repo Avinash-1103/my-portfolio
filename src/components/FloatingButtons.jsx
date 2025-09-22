@@ -1,14 +1,20 @@
-import React from 'react'
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function FloatingButtons() {
+  const phoneNumber = "917249060794";
+  const defaultMessage = "Hello !";
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
+
   return (
-    <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
-      <a href="mailto:avinashnalawade0007@gmail.com" className="flex items-center gap-3 px-4 py-3 rounded-full bg-white dark:bg-gray-800 shadow-lg ring-1 ring-gray-100 dark:ring-gray-700">
-        Email
-      </a>
-      <a href="https://wa.me/917249060794" target="_blank" rel="noreferrer" className="flex items-center gap-3 px-4 py-3 rounded-full bg-green-500 text-white shadow-lg">
-        WhatsApp
-      </a>
-    </div>
-  )
+    <a
+      href={whatsappLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-5 right-5 bg-green-600 hover:bg-green-700 text-white rounded-full p-4 shadow-lg flex items-center justify-center z-50"
+      style={{ width: "50px", height: "50px" }}
+      title="Chat on WhatsApp"
+    >
+      <FaWhatsapp size={50} />
+    </a>
+  );
 }
