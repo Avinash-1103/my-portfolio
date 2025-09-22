@@ -67,73 +67,81 @@ It is structured to provide a professional yet simple interface, ensuring ease o
 
 ---
 
-## 📂 Project Structure
 
+📂 Project Structure
 my-portfolio/
-├── .github/
-├── node_modules/
-├── public/
+├── .github/                # GitHub workflows
+├── node_modules/           # Project dependencies
+├── public/                 # Static assets like images, favicon
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── pages/
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── assets/             # Images, icons, and other media
+│   ├── components/         # React components
+│   ├── pages/              # Different pages (Home, About, etc.)
+│   ├── App.jsx             # Main React component
+│   └── main.jsx            # React entry point
 ├── .gitignore
 ├── index.html
 ├── package.json
 ├── tailwind.config.js
 └── vite.config.js
 
+⚙️ Getting Started
 
-## ⚙️ Getting Started
-
-1. **Clone the repository:**
-
+Clone the repository:
 
 git clone https://github.com/Avinash-1103/my-portfolio.git
 cd my-portfolio
+
+
 Install dependencies:
 
-bash
-Copy code
 npm install
+
+
 Start the development server:
 
-bash
-Copy code
 npm run dev
-Open your browser at http://localhost:5173 to view the portfolio.
+
+
+Open your browser at:
+
+http://localhost:5173
 
 🧩 Build for Production
-To generate an optimized production build:
-
-bash
-Copy code
 npm run build
-The output will be in the dist/ folder, ready for deployment.
+
+
+The production-ready files will be generated in the dist/ folder.
 
 🤝 Contribution
-Contributions are welcome!
 
 Fork the repository
 
-Create a new branch (git checkout -b feature/YourFeature)
+Create a branch:
 
-Commit your changes (git commit -m 'Add YourFeature')
+git checkout -b feature/YourFeature
 
-Push to the branch (git push origin feature/YourFeature)
 
-Open a pull request
+Commit your changes:
+
+git commit -m "Add YourFeature"
+
+
+Push the branch:
+
+git push origin feature/YourFeature
+
+
+Open a pull request on GitHub
 
 📬 Contact
 Avinash Nalawade
 
 GitHub: https://github.com/Avinash-1103
 
-Email: your-email@example.com (replace with actual email)
+Email: avinashnalawade0007@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/avinash-nalawade/ (if available)
+LinkedIn: https://www.linkedin.com/in/avinash-nalawade/ 
 
 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
