@@ -1,34 +1,39 @@
-name: Deploy Vite React Site to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]  # Deploy on every push to main
+    branches:
+      - main  # or your default branch
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
+      # 1️⃣ Checkout the repo
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # 2️⃣ Setup Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'   # or your desired Node version
 
-      # 3️⃣ Install dependencies (including devDependencies)
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Build the Vite project using local Vite
-      - name: Build Vite site
-        run: npx vite build
+      # 4️⃣ Build the project
+      - name: Build
+        run: npm run build
 
-      # 5️⃣ Deploy to GitHub Pages using GITHUB_TOKEN
-      - name: Deploy to GitHub Pages
+      # 5️⃣ Create CNAME file dynamically
+      - name: Create CNAME
+        run: echo "www.avinashnalawade.in" > dist/CNAME
+
+      # 6️⃣ Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
