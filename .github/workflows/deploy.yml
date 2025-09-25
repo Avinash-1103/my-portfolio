@@ -30,7 +30,7 @@ jobs:
 
       # 5️⃣ Create CNAME file dynamically
       - name: Create CNAME
-        run: echo "www.avinashnalawade.in" > dist/CNAME
+        run: echo "avinashnalawade.in" > dist/CNAME
 
       # 6️⃣ Deploy to GitHub Pages
       - name: Deploy
