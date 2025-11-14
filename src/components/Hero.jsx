@@ -41,12 +41,13 @@ export default function Hero() {
         </div>
         <div className="mt-6 flex gap-4">
           <a
-            href={`${import.meta.env.BASE_URL}resume.pdf`}
-            download
+            href="resume.pdf"
+            download="resume.pdf"
             className="inline-flex items-center px-4 py-2 rounded-md bg-black dark:bg-white text-white dark:text-black font-medium"
           >
             Download Resume
           </a>
+
           <button
             onClick={() => handleScroll('projects')}
             className="px-4 py-2 rounded-md ring-1"
