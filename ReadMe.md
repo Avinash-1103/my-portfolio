@@ -5,7 +5,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 ## 🚀 Live Demo
 
 Check out the live version of the portfolio:  
-👉 [https://avinash-1103.github.io/my-portfolio/](https://avinash-1103.github.io/my-portfolio/)
+👉 [https://avinashnalawade.in](https://avinashnalawade.in)
 
 ---
 
